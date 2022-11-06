@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+    <style>
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Kérem az első számot:</p>
+    <input type="text" id="elso">
+    <p>Kérem a második számot:</p>
+    <input type="text" id="masodik">
+    <br>
+    <button onclick="osszead()">+</button>
+    <button onclick="kivon()">-</button>
+    <button onclick="szoroz()">*</button>
+    <button onclick="oszt()">/</button>
+    <h1>Eredmény: <br> <span id="eredmeny"></span></h1>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
